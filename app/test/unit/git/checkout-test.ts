@@ -24,26 +24,12 @@ describe('git/checkout', () => {
       type: BranchType.Local,
       tip: {
         sha: '',
-        shortSha: '',
-        summary: '',
-        body: '',
         author: {
           name: '',
           email: '',
           date: new Date(),
           tzOffset: 0,
         },
-        committer: {
-          name: '',
-          email: '',
-          date: new Date(),
-          tzOffset: 0,
-        },
-        authoredByCommitter: true,
-        parentSHAs: [],
-        trailers: [],
-        tags: null,
-        coAuthors: [],
       },
       remote: null,
     }
